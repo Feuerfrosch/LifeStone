@@ -1,0 +1,137 @@
+QWidget#main {
+	background-image: url("images/hearthstone.jpg")
+}
+QWidget#adventure {
+	background-image: url(images/adventure.jpeg);
+}
+
+QWidget#brawl {
+	background-image: url("images/brawl.jpg")
+}
+
+QWidget#quest {
+	border-image: url("images/quest.jpg")
+}
+
+QWidget#play {
+	background-image: url("images/play.jpg")
+}
+
+QWidget#work {
+	background-color: rgb(189, 189, 189)
+}
+
+QWidget#shop {
+	border-image: url("images/shop.jpg")
+}
+
+QRadioButton::indicator:unchecked {
+	image: url(images/nope.png);
+}
+
+QRadioButton::indicator:unchecked:hover {
+	image: url(images/gold.png);
+}
+
+QRadioButton::indicator:checked {
+	image: url(images/money.png);
+}
+QRadioButton {
+	font-family: "Apple Chancery";
+	color: white;
+}
+
+QProgressBar {
+	border: 4px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Apple Chancery"
+}
+
+QProgressBar::chunk {
+	background-color: rgb(80, 187, 67);
+	width: 10px;
+	margin: 0.5px;
+	border-radius: 2px;
+}
+
+QLineEdit {
+    border: 2px solid rgb(179, 128, 76);
+    border-radius: 10px;
+    padding: 0 8px;
+    background: black;
+		color: white;
+}
+
+QLabel {
+	font-family: "Apple Chancery";
+	font-size: 18px;
+}
+
+QLabel#rank {
+	color: white;
+}
+
+QLabel#gold {
+	color: white;
+}
+
+QLabel#money {
+	color: white;
+}
+
+QPushButton {
+
+		background-image: url("images/button.png");
+		font-family: "Apple Chancery";
+		font-size: 18px;
+}
+
+QPushButton:pressed {
+    border-image: url("images/buttonPressed.png")
+}
+
+QPushButton#pack {
+	border: 2px solid #77dad1;
+	border-radius: 15px;
+	max-width: 300px;
+	max-height: 30px;
+}
+
+QPushButton#packs {
+	border: 2px solid #77dad1;
+	border-radius: 15px;
+	max-width: 300px;
+	max-height: 30px;
+}
+
+QPushButton#adventuregold {
+	border: 2px solid #77dad1;
+	border-radius: 15px;
+	font-size:15px;
+	max-width: 140;
+	max-height: 30px;
+}
+
+QPushButton#adventuremoney {
+	border: 2px solid #77dad1;
+	border-radius: 15px;
+	font-size: 15px;
+	max-width: 140px;
+	max-height: 30px;
+}
+
+QMessageBox {
+	border-image: url("images/message.png");
+}
+
+QMessageBox#friend {
+	background-color: #DAF6C4; # this is the whatsapp message color
+	border-image: url("");
+}
+
+QMessageBox#finance {
+	background-color: #DAF6C4;
+	border-image: url("");
+}
